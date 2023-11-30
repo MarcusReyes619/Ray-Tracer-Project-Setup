@@ -8,6 +8,8 @@ public:
 	bool Initialize();
 	void ShutDown();
 	bool CreateWindow(const std::string& title, int width, int height);
+	void PresentCanvas(const class Canvas& canvas);
+	friend class Canvas;
 
 private:
 	SDL_Renderer* m_renderer = nullptr;
