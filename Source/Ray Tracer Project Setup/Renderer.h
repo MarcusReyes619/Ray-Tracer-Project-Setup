@@ -9,6 +9,8 @@ public:
 	void ShutDown();
 	bool CreateWindow(const std::string& title, int width, int height);
 	void PresentCanvas(const class Canvas& canvas);
+
+
 	friend class Canvas;
 
 private:
@@ -17,4 +19,5 @@ private:
 
 	int m_width = 0;
 	int m_height = 0;
+
 };	

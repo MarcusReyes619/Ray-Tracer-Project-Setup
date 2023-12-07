@@ -1,6 +1,10 @@
 #include "Renderer.h"
 #include <iostream>
 #include "Canvas.h"
+#include "Ray.h"
+#include "Color.h"
+#include"Scene.h"
+
 bool Renderer::Initialize()
 {
     if (SDL_Init(SDL_INIT_VIDEO) != 0) {
@@ -49,6 +53,7 @@ void Renderer::PresentCanvas(const Canvas& canvas)
     // present renderer to screen
     SDL_RenderPresent(m_renderer);
 }
+
         
     
 
