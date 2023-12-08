@@ -1,4 +1,5 @@
 #include "Canvas.h"
+
 Canvas::Canvas(int width, int height, const Renderer& renderer)
 {
 	m_size = { width, height };

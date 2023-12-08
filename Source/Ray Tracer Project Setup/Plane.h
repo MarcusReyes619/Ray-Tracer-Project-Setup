@@ -16,5 +16,5 @@ private:
 	//center of the plane
 	glm::vec3 m_center;
 	//<normal of the plane>
-	glm::vec3 m_normal;
+	glm::vec3  m_normal;
 };
